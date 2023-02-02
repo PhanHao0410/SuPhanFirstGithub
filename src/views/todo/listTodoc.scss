@@ -1,0 +1,30 @@
+.listTodo-container {
+    button {
+        cursor     : pointer;
+        margin-left: 4px;
+    }
+
+    .listTodo-add {
+        padding: 2px 0;
+    }
+
+    .listTodo-content {
+        width : 400px;
+        margin: 0px auto;
+
+
+        .listTodo-child {
+            &:first-child {
+                border-top: 1px solid gray;
+                margin-top: 10px;
+            }
+
+            span {
+                padding-right: 12px;
+            }
+
+            border-bottom: 1px solid gray;
+            padding      : 6px 0;
+        }
+    }
+}
